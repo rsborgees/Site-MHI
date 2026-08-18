@@ -1,0 +1,41 @@
+.differentials__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.differential-card {
+  text-align: center;
+  padding: 28px 20px;
+  border-radius: var(--radius-md);
+  background: var(--color-green-900);
+  color: var(--color-white);
+}
+
+.differential-card svg {
+  color: var(--color-green-500);
+  margin-bottom: 14px;
+}
+
+.differential-card h3 {
+  color: var(--color-white);
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.differential-card p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .differentials__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .differentials__grid {
+    grid-template-columns: 1fr;
+  }
+}
