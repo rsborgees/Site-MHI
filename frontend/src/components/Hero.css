@@ -16,7 +16,7 @@
 .hero__lead {
   margin-top: 20px;
   font-size: 18px;
-  color: var(--color-text-muted);
+  color: #55706a;
   max-width: 520px;
 }
 
@@ -39,7 +39,7 @@
   width: 360px;
   height: 360px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, var(--color-green-100), var(--color-green-500) 120%);
+  background: radial-gradient(circle at 30% 30%, #e3f5ea, #189a5c 120%);
   opacity: 0.35;
   filter: blur(10px);
 }
@@ -48,10 +48,10 @@
   position: relative;
   width: 320px;
   max-width: 100%;
-  background: var(--color-white);
+  background: #ffffff;
   border-radius: var(--radius-lg);
   padding: 32px;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 12px 32px rgba(6, 48, 31, 0.14);
 }
 
 @media (max-width: 900px) {

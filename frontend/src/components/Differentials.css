@@ -8,23 +8,23 @@
   text-align: center;
   padding: 28px 20px;
   border-radius: var(--radius-md);
-  background: var(--color-green-900);
-  color: var(--color-white);
+  background: #06301f;
+  color: #ffffff;
 }
 
 .differential-card svg {
-  color: var(--color-green-500);
+  color: #189a5c;
   margin-bottom: 14px;
 }
 
 .differential-card h3 {
-  color: var(--color-white);
+  color: #ffffff;
   margin-bottom: 8px;
   font-size: 18px;
 }
 
 .differential-card p {
-  color: var(--color-on-dark-75);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 14px;
 }
 
