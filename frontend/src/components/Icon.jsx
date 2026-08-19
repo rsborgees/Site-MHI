@@ -7,6 +7,7 @@ const PATHS = {
     </>
   ),
   pulse: <polyline points="2,12 7,12 9,6 13,18 15,12 22,12" />,
+  chevron: <polyline points="9,4 17,12 9,20" />,
   spine: (
     <>
       <line x1="12" y1="2" x2="12" y2="22" />
