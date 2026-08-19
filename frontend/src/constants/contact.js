@@ -10,6 +10,4 @@ export const CONTACT = {
 
 export const WHATSAPP_URL = `https://wa.me/${CONTACT.whatsappNumber}`
 
-export const MAPS_EMBED_URL = `https://www.google.com/maps?q=${encodeURIComponent(
-  CONTACT.address,
-)}&output=embed`
+export const MAPS_EMBED_URL = 'https://www.google.com/maps?cid=7246529347998848184&output=embed'
