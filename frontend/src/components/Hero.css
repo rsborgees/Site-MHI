@@ -34,19 +34,25 @@
   justify-content: center;
 }
 
+.hero__logo-frame {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
 .hero__blob {
   position: absolute;
-  width: 340px;
-  height: 340px;
-  border-radius: 56px;
-  transform: rotate(-8deg);
+  inset: -22px;
+  border-radius: 48px;
   background: radial-gradient(circle at 30% 30%, #e3f5ea, #189a5c 120%);
-  opacity: 0.35;
-  filter: blur(10px);
+  opacity: 0.4;
+  filter: blur(18px);
+  z-index: 0;
 }
 
 .hero__logo {
   position: relative;
+  z-index: 1;
   width: 320px;
   max-width: 100%;
   background: #ffffff;

@@ -31,8 +31,10 @@ function Hero() {
           </div>
         </div>
         <div className="hero__visual">
-          <div className="hero__blob" aria-hidden="true"></div>
-          <img src={logo} alt="MHI Saúde" className="hero__logo" />
+          <div className="hero__logo-frame">
+            <div className="hero__blob" aria-hidden="true"></div>
+            <img src={logo} alt="MHI Saúde" className="hero__logo" />
+          </div>
         </div>
       </div>
     </section>
