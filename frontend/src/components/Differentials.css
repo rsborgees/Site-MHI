@@ -24,7 +24,7 @@
 }
 
 .differential-card p {
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--color-on-dark-75);
   font-size: 14px;
 }
 

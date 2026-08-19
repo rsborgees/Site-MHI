@@ -10,6 +10,12 @@
   --color-text-muted: #55706a;
   --color-white: #ffffff;
   --color-border: #d9ece1;
+  --color-on-dark-90: rgba(255, 255, 255, 0.85);
+  --color-on-dark-75: rgba(255, 255, 255, 0.75);
+  --color-on-dark-70: rgba(255, 255, 255, 0.7);
+  --color-on-dark-60: rgba(255, 255, 255, 0.6);
+  --color-on-dark-12: rgba(255, 255, 255, 0.12);
+  --color-on-dark-10: rgba(255, 255, 255, 0.1);
   --shadow-sm: 0 2px 8px rgba(6, 48, 31, 0.08);
   --shadow-md: 0 12px 32px rgba(6, 48, 31, 0.14);
   --radius-md: 14px;
