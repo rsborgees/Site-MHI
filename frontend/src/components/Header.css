@@ -49,6 +49,12 @@
 .header__cta {
   padding: 10px 22px;
   font-size: 15px;
+  background: #0f7a49;
+  color: #ffffff;
+}
+
+.header__cta:hover {
+  background: #0a5c3a;
 }
 
 .header__toggle {
