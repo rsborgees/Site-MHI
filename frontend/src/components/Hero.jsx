@@ -1,6 +1,8 @@
-import logo from '../assets/logo.png'
 import Icon from './Icon'
 import { WHATSAPP_URL } from '../constants/contact'
+import photoKnee from '../assets/img.jpg'
+import photoStretch from '../assets/img2.jpeg'
+import photoWheelchair from '../assets/img3.jpeg'
 import './Hero.css'
 
 function Hero() {
@@ -31,9 +33,27 @@ function Hero() {
           </div>
         </div>
         <div className="hero__visual">
-          <div className="hero__logo-frame">
-            <div className="hero__blob" aria-hidden="true"></div>
-            <img src={logo} alt="MHI Saúde" className="hero__logo" />
+          <div className="hero__blob" aria-hidden="true"></div>
+          <div className="hero__dots" aria-hidden="true"></div>
+          <div className="hero__gallery">
+            <div className="hero__photo hero__photo--main">
+              <img
+                src={photoStretch}
+                alt="Fisioterapeuta auxiliando paciente em exercício de alongamento"
+              />
+            </div>
+            <div className="hero__photo hero__photo--small">
+              <img
+                src={photoKnee}
+                alt="Avaliação de joelho durante sessão de fisioterapia"
+              />
+            </div>
+            <div className="hero__photo hero__photo--small">
+              <img
+                src={photoWheelchair}
+                alt="Fisioterapeuta acompanhando paciente em cadeira de rodas"
+              />
+            </div>
           </div>
         </div>
       </div>
