@@ -1,12 +1,14 @@
 import amil from '../assets/card-amil.png'
 import bradesco from '../assets/card-bradesco.jpg'
 import sulamerica from '../assets/card-sulamerica.png'
+import itau from '../assets/card-itau.jpg'
 import './Insurance.css'
 
 const PLANS = [
   { id: 'amil', name: 'Amil', logo: amil },
   { id: 'bradesco', name: 'Bradesco Saúde', logo: bradesco },
   { id: 'sulamerica', name: 'SulAmérica', logo: sulamerica },
+  { id: 'itau', name: 'Fundação Saúde Itaú', logo: itau },
 ]
 
 function Insurance() {
